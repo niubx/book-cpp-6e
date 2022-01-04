@@ -29,4 +29,3 @@ Temporary Items
 .idea
 *.o
 cmake-build-debug
-CMakeLists.txt
