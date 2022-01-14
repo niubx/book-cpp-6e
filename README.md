@@ -1,4 +1,4 @@
-# cpp.6e
+# book-cpp-6e
 
 ## 介绍
 《C Primer Plus》第 6 版
