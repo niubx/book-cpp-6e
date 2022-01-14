@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.21)
 
-project(cpp.6e C)
+project(book-cpp-6e C)
 
 set(CMAKE_C_STANDARD 11)
 
