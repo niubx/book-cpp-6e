@@ -8,7 +8,7 @@ int main(void) {
     printf("my32 = %d\n", my32);
     printf("Next, let's not make assumptions.\n");
     printf("Instead, use a \"macro\" from inttypes.h: ");
-    printf("me32 = %" PRId32 "\n", my32);
+    printf("my32 = %" PRId32 "\n", my32);
 
     return 0;
 }
