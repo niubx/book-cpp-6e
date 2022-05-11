@@ -16,5 +16,12 @@ add_executable(3.7.2_floatErr chapter_03/example/3.7.2_floatErr.c)
 add_executable(3.8_typeSize chapter_03/example/3.8_typeSize.c)
 
 add_executable(4.1_talkback.c chapter_04/example/4.1_talkback.c)
+add_executable(4.2_praise1.c chapter_04/example/4.2_praise1.c)
+add_executable(4.3_praise2.c chapter_04/example/4.3_praise2.c)
+add_executable(4.4_pizza.c chapter_04/example/4.4_pizza.c)
+add_executable(4.5_defines.c chapter_04/example/4.5_defines.c)
+add_executable(4.6_printOut.c chapter_04/example/4.6_printOut.c)
+add_executable(4.7_width.c chapter_04/example/4.7_width.c)
+add_executable(4.8_floats.c chapter_04/example/4.8_floats.c)
 
 add_executable(program_1.c chapter_04/program/program_1.c)
