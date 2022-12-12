@@ -3,6 +3,8 @@
 #include <math.h>
 
 int main(void) {
+    system("chcp 65001");
+    
     double weight; // 体重
     double value; // 相等重量黄金的价值
     char *ptr;

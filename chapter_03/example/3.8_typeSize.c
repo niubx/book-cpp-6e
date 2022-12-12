@@ -2,23 +2,27 @@
 
 int main(void) {
     // C99 为类型大小提供 %zd 转换说明
-    printf("Type char has a size of %zd bytes.\n", sizeof(char));
-    printf("Type short has a size of %zd bytes.\n", sizeof(short));
-    printf("Type int has a size of %zd bytes.\n", sizeof(int));
-    printf("Type long has a size of %zd bytes.\n", sizeof(long));
-    printf("Type long-long [int] has a size of %zd bytes.\n", sizeof(long long));
-    printf("Type float has a size of %zd bytes.\n", sizeof(float));
-    printf("Type double has a size of %zd bytes.\n", sizeof(double));
-    printf("Type long double has a size of %zd bytes.\n", sizeof(long double));
+    printf("%2zd bytes - [unsigned] char.\n", sizeof(char));
+    printf("%2zd bytes - [unsigned] short.\n", sizeof(short));
+    printf("%2zd bytes - [unsigned] int.\n", sizeof(int));
+    printf("%2zd bytes - [unsigned] long.\n", sizeof(long));
+    printf("%2zd bytes - [unsigned] long long.\n", sizeof(long long));
+    printf("%2zd bytes - float.\n", sizeof(float));
+    printf("%2zd bytes - double.\n", sizeof(double));
+    printf("%2zd bytes - long double.\n", sizeof(long double));
+    printf("%2zd bytes - _Bool.\n", sizeof(_Bool));
 
     return 0;
 }
 
-// Type char has a size of 1 bytes.
-// Type short has a size of 2 bytes.
-// Type int has a size of 4 bytes.
-// Type long has a size of 8 bytes.
-// Type long-long [int] has a size of 8 bytes.
-// Type float has a size of 4 bytes.
-// Type double has a size of 8 bytes.
-// Type long double has a size of 16 bytes.
+// --Mac
+
+// --Win
+//  1 bytes - [unsigned] char.
+//  2 bytes - [unsigned] short.
+//  4 bytes - [unsigned] int.
+//  4 bytes - [unsigned] long.
+//  8 bytes - [unsigned] long long.
+//  4 bytes - float.
+//  8 bytes - double.
+// 16 bytes - long double.

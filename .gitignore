@@ -29,3 +29,5 @@ Temporary Items
 .idea
 *.o
 cmake-build-debug
+build
+.vscode
