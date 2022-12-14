@@ -11,7 +11,6 @@ int main(void) {
     printf("%2zd bytes - double.\n", sizeof(double));
     printf("%2zd bytes - long double.\n", sizeof(long double));
     printf("%2zd bytes - _Bool.\n", sizeof(_Bool));
-    printf("%2zd bytes - _Complex.\n", sizeof(_Complex));
 
     return 0;
 }
@@ -28,4 +27,3 @@ int main(void) {
 //  8 bytes - double.
 // 16 bytes - long double.
 //  1 bytes - _Bool.
-// 16 bytes - _Complex.
