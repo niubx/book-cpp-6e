@@ -1,0 +1,61 @@
+char
+%c	单个字符
+%hhd	%hhi	有符号（十进制）
+
+unsigned char
+%hhu	无符号（十进制）
+%hho	无符号（八进制）
+%hhx	%hhX	无符号（十六进制）
+
+char*
+%s
+
+short
+%hd	%hi	有符号（十进制）
+
+unsigned short
+%hu	无符号（十进制）
+%ho	无符号（八进制）
+%hx	%hX	无符号（十六进制）
+
+int
+%d	%i	有符号（十进制）
+
+unsigned int
+%u	无符号（十进制）
+%o	无符号（八进制）
+%x	%X	无符号（十六进制）
+
+long
+%ld	%li	有符号（十进制）
+
+unsigned long
+%lu	无符号（十进制）
+%lo	无符号（八进制）
+%lx	%lX	无符号（十六进制）
+
+long long
+%lld	%lli	有符号（十进制）
+
+unsigned long long
+%llu	无符号（十进制）
+%llo	无符号（八进制）
+%llx	%llX	无符号（十六进制）
+
+float/double
+%f	%F	浮点数（十进制记法）
+%e	%E	浮点数（十进制指数记法）
+%g	%G	浮点数（十进制 或 十进制指数记法）
+%a	%A	浮点数（十六进制记法）
+
+long double
+%Lf	%LF	浮点数（十进制记法）
+%Le	%LE	浮点数（十进制指数记法）
+%Lg	%LG	浮点数（十进制 或 十进制指数记法）
+%La	%LA	浮点数（十六进制记法）
+
+size_t
+%zd	%zi	有符号
+%zu	无符号（十进制）
+%zo	无符号（八进制）
+%zx	%zX	无符号（十六进制）
