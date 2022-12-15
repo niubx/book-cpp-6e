@@ -15,6 +15,11 @@ add_executable(3.7.1_showFloat_pt chapter_03/example/3.7.1_showFloat_pt.c)
 add_executable(3.7.2_floatErr chapter_03/example/3.7.2_floatErr.c)
 add_executable(3.8_typeSize chapter_03/example/3.8_typeSize.c)
 
+add_executable(r_3.1 chapter_03/review/r_3.1.c)
+add_executable(r_3.4 chapter_03/review/r_3.4.c)
+add_executable(r_3.8 chapter_03/review/r_3.8.c)
+add_executable(r_3.9 chapter_03/review/r_3.9.c)
+
 add_executable(4.1_talkback.c chapter_04/example/4.1_talkback.c)
 add_executable(4.2_praise1.c chapter_04/example/4.2_praise1.c)
 add_executable(4.3_praise2.c chapter_04/example/4.3_praise2.c)
